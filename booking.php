@@ -5,7 +5,7 @@
     $phone= $_POST["phone"];
     $text= $_POST["message"];
     $age= $_POST["age"];
-    $driver= $_POST["driver"];
+    $licence= $_POST["licence"];
     $car= $_POST["car"];
     $pickup= $_POST["pickup"];
     $pickupdate= $_POST["pickupdate"];
@@ -24,7 +24,7 @@
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
         <tr><td>Age: '.$age.'</td></tr>
-        <tr><td>Drivers Licence: '.$driver.'</td></tr>
+        <tr><td>Drivers Licence: '.$licence.'</td></tr>
         <tr><td>Vehicle Requested: '.$car.'</td></tr>
         <tr><td>Pick-up Details: '.$pickup.'</td></tr>
         <tr><td>Pick-up Date: '.$pickupdate.'</td></tr>
