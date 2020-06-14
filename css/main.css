@@ -2335,7 +2335,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/black-banner.jpg) center;
+  background: url(../img/black.jpg) center;
   background-size: cover;
 }
 .homebanner-area {
@@ -2423,16 +2423,15 @@ margin-right: -1.5rem;
   width: 7rem;
 }
 .car-image{
-  height: 492px;
+  height: 527px;
 object-fit: cover;
 position: absolute;
-z-index: -1;
+
 }
 .car-image2{
   height: 527px;
 object-fit: cover;
 position: absolute;
-z-index: -1;
 }
 .arrow-left {
   width: 0;
@@ -2510,7 +2509,149 @@ margin-left: 2rem;
   .banner-content h1 {
     font-size: 32px;
   }
+  .car-image{
+    height: auto !important;
+    position: relative;
+  
+  }
+  .car-image2{
+    height: 0px;
+  }
+  .car-image3{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-1.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image4{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-27.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image5{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-22.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image6{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-11.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image7{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-31.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image8{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-33.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image9{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-14.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image10{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-17.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image11{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-23.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image12{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-15.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .car-image13{
+    height:  50vh;
+    position: relative;
+    background-image: url(../img/Untitled-21.jpg);
+    background-size: 466px 331px;
+  
+  }
+  .info-one{
+    width: 9rem;
+  }
+  .info-two{
+    width: 9rem;
+  margin-top: -7.5rem;
+  margin-left: 13rem;
+  }
+  .info-three{
+    width: 9rem;
+  }
+  .info-four{
+    width: 9rem;
+  margin-top: -7.5rem;
+  margin-left: 13rem;
+  }
+  .box-one{
+    margin-left:-19rem;
+  }
+  .box-two{
+    margin-top: -6.5rem;
+  }
+  .box-thre{
+    margin-top: -6rem;
+  }
+  .box-three{
+    margin-left: 17rem;
+  }
+  .price-line{
+    background-color: #202020;
+  }
+  .price{
+    margin-left: 0rem;
+    margin-top: -25rem;
+  }
+  .price2{
+    margin-left: 0rem;
+    margin-top: -29rem;
+  }
+  .price3{
+    margin-left: 0rem;
+    margin-top: -28rem;
+  }
+  .price4{
+    margin-left: 0rem;
+    margin-top: -27rem;
+  }
+  .price5{
+    margin-left: 0rem;
+    margin-top: -26rem;
+  }
+  .header-one{
+    font-size: 79px !important;
+margin-left: 0rem !important;
+  }
 }
+@media screen and (max-width: 600px) { 
+  .has-media-on-the-right { display: flex;  } }
 
 .banner-content h6 {
   font-size: 14px;
@@ -2753,7 +2894,26 @@ margin-left: 2rem;
     margin-top: 40px;
   }
 }
-
+.fixedbutton{
+  position: fixed;
+  top: 150px;
+  right: 5px;
+  width: 30px;
+  height: 117px;
+  margin-left: 405px;
+  z-index: 99;
+  padding: 1px 5px 1px 1px;
+  text-align: center;
+  background: white;
+  color: #ffae00;
+  font-size: 16px;
+  border-radius: .5rem;
+  font-weight: 900;
+}
+.rotated {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
 .model-area .owl-dots {
   text-align: center;
   bottom: 5px;
@@ -3161,13 +3321,15 @@ margin-left: 2rem;
 }
 
 .about-content {
-  padding: 120px 0px;
+  padding: 48px 0px;
   text-align: center;
 }
 
 .about-content h1 {
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 146px;
+font-weight: 600;
+color: #ffae00 !important;
+margin-left: -35rem;
 }
 
 .about-content a {
