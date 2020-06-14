@@ -166,6 +166,11 @@
     }
 
   };
+  $(function () {
+    $('[data-toggle="popover"]').popover({
+      trigger: 'hover'
+    })
+  });
   $(function() {
     setTimeout(scroller, 0);
   });
