@@ -2521,77 +2521,88 @@ margin-left: 2rem;
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-1.jpg);
-    background-size: 466px 331px;
-  
+    background-size: 466px;
+    background-repeat: no-repeat;
+
   }
   .car-image4{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-27.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image5{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-22.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image6{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-11.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image7{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-31.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image8{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-33.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image9{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-14.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image10{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-17.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image11{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-23.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image12{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-15.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .car-image13{
     height:  50vh;
     position: relative;
     background-image: url(../img/Untitled-21.jpg);
-    background-size: 466px 331px;
+    background-size: 466px;
+    background-repeat: no-repeat;
   
   }
   .info-one{
@@ -2643,11 +2654,14 @@ margin-left: 2rem;
   }
   .price5{
     margin-left: 0rem;
-    margin-top: -26rem;
+    margin-top: -31rem;
   }
   .header-one{
     font-size: 79px !important;
 margin-left: 0rem !important;
+  }
+  .photo-title{
+    margin-top: 4rem;
   }
 }
 @media screen and (max-width: 600px) { 
