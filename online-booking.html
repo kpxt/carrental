@@ -134,46 +134,46 @@
 				</div>
 				<div class="col-lg-7  col-md-6 header-right">
 					<h4 class="text-white pb-30">Book Your Car Today!</h4>
-					<form class="form" role="form" autocomplete="off" action="booking.php">
+					<form class="form" role="form" method="post" autocomplete="off" action="/php/booking.php">
 						<div class="form-group">
 							<div class="default-select" id="default-select">
-								<select>
+								<select name="car-type">
 									<option value="" disabled selected hidden>Select Your Car</option>
 									<option value="" disabled>Exoitc</option>
-									<option value="1">Ferrari 488 GTB</option>
-									<option value="1">Ferrari 458</option>
-									<option value="1">McLaren 570S</option>
-									<option value="1">Lamborghini Aventador</option>
-									<option value="1">Lamborghini Huracan</option>
+									<option value="Ferrari 488 GTB">Ferrari 488 GTB</option>
+									<option value="Ferrari 458">Ferrari 458</option>
+									<option value="McLaren 570S">McLaren 570S</option>
+									<option value="Lamborghini Aventador">Lamborghini Aventador</option>
+									<option value="Lamborghini Huracan">Lamborghini Huracan</option>
 									<option value="" disabled>Luxury</option>
-									<option value="1">Rolls Royce Wraith</option>
-									<option value="1">Mercedes-benz S63 Convertible</option>
+									<option value="Rolls Royce Wraith">Rolls Royce Wraith</option>
+									<option value="Mercedes-benz S63 Convertible">Mercedes-benz S63 Convertible</option>
 									<option value="" disabled>Sport</option>
-									<option value="1">BMW M4 Series</option>
-									<option value="1">Mercedes-benz GT AMG</option>
-									<option value="1">Mercedes-benz C63 AMG</option>
+									<option value="BMW M4 Series">BMW M4 Series</option>
+									<option value="Mercedes-benz GT AMG">Mercedes-benz GT AMG</option>
+									<option value="Mercedes-benz C63 AMG">Mercedes-benz C63 AMG</option>
 									<option value="" disabled>SUV</option>
-									<option value="1">Range Rover Auto Biography</option>
-									<option value="1">Lamborghini Urus</option>
-									<option value="1">Mercedes-benz G63</option>
-									<option value="1">Maserati Levante</option>
+									<option value="Range Rover Auto Biography">Range Rover Auto Biography</option>
+									<option value="Lamborghini Urus">Lamborghini Urus</option>
+									<option value="Mercedes-benz G63">Mercedes-benz G63</option>
+									<option value="Maserati Levante">Maserati Levante</option>
 								</select>
 							</div>
 						</div>
 						<div class="form-group row">
 							<div class="col-md-6 wrap-left">
 								<div class="default-select" id="default-select">
-									<select>
+									<select name="pickup">
 										<option value="" disabled selected hidden>Pickup</option>
-										<option value="1">London</option>
-										<option value="1">Manchester</option>
-										<option value="1">Birmingham</option>
+										<option value="London">London</option>
+										<option value="Manchester">Manchester</option>
+										<option value="Birmingham">Birmingham</option>
 									</select>
 								</div>
 							</div>
 							<div class="col-md-6 wrap-right">
 								<div class="input-group dates-wrap">
-									<input id="datepicker" class="dates form-control" id="exampleAmount"
+									<input id="datepicker" class="dates form-control" id="exampleAmount" name="pickup-date"
 										placeholder="Select Date" type="text">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><span
@@ -185,17 +185,17 @@
 						<div class="form-group row">
 							<div class="col-md-6 wrap-left">
 								<div class="default-select" id="default-select">
-									<select>
+									<select name="drop-off">
 										<option value="" disabled selected hidden>Drop off</option>
-										<option value="1">London</option>
-										<option value="1">Manchester</option>
-										<option value="1">Birmingham</option>
+										<option value="London">London</option>
+										<option value="Manchester">Manchester</option>
+										<option value="Birmingham">Birmingham</option>
 									</select>
 								</div>
 							</div>
 							<div class="col-md-6 wrap-right">
 								<div class="input-group dates-wrap">
-									<input id="datepicker2" class="dates form-control" id="exampleAmount"
+									<input id="datepicker2" class="dates form-control" id="exampleAmount" name="drop-date"
 										placeholder="Select Date" type="text">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><span
@@ -206,7 +206,7 @@
 						</div>
 						<div class="from-group">
 							<input class="form-control txt-field" type="text" name="name" placeholder="Full name">
-							<input class="form-control txt-field" type="text" name="Age" placeholder="Age">
+							<input class="form-control txt-field" type="text" name="age" placeholder="Age">
 							<input class="form-control txt-field" type="text" name="licence"
 								placeholder="Drivers Licence">
 							<input class="form-control txt-field" type="email" name="email" placeholder="Email address">
@@ -216,7 +216,7 @@
 						</div>
 						<div class="form-group row">
 							<div class="col-md-12">
-								<button type="reset"
+								<button type="submit"
 									class="btn btn-default btn-lg btn-block text-center text-uppercase">Confirm Car
 									Booking</button>
 							</div>
