@@ -1,5 +1,10 @@
 <?php
 
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('HTTP/1.0 403 Forbidden', true, 403);
+    die('Forbidden');
+}
+
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
